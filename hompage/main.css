@@ -1,0 +1,252 @@
+#top{
+    max-width: 100%;
+}
+
+#top .navbar{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#top .navbar-brand img{
+    width: 140px ;
+}
+
+#top .navbar a h5{
+    color: white;
+}
+
+#top .navbar a h5:hover{
+    color: goldenrod;
+    transition: 0.2s;
+}
+
+#hero{
+    position: relative;
+}
+
+#hero video{
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+}
+
+#hero .content{
+    background-color: rgb(0, 0, 0,0.2);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero .content h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Michroma', sans-serif;
+    font-weight: 500;
+}
+
+#hero .content img{
+    width: 350px;
+    margin-bottom: -60px;
+}
+
+#hero button h2{
+    font-size: 50px;
+    font-family: 'Michroma', sans-serif;
+    font-weight: 500;
+}
+
+
+
+/********** hizmet *********************/
+
+
+#hizmet{
+    width: 100%;
+    background-color: #f7f7f7;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#hizmet .tittle {
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#hizmet .card h5{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#hizmet .card .card-text{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#hizmet .card a{
+    text-decoration: none;
+    color: gray ;
+}
+
+#hizmet .card a:hover{
+    color: goldenrod;
+}
+
+
+
+
+/*************** hakkimizda *****************/
+
+#hakkimizda{
+    background:#fff;
+    padding-bottom: 150px;
+}
+
+#hakkimizda .tittle {
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#hakkimizda .img{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+#hakkimizda p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #777;
+}
+
+#hakkimizda h4{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800px;
+    color: #000;
+}
+
+
+
+/************* Ekibimiz *****************/
+
+#ekibimiz{
+    background-color: #f7f7f7;
+    padding-bottom: 20px
+}
+
+#ekibimiz .tittle{
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#ekibimiz .team{
+    margin-top: 120px;
+}
+
+#ekibimiz .cyrcle{
+    width: 320px;
+    height: 320px;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 640px;
+}
+
+#ekibimiz h1{
+    margin-top: 12px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 900px;
+}
+
+#ekibimiz h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    color: #777;
+    margin-top: 12px;
+}
+
+#ekibimiz ul li{
+    list-style: none;
+    float: left;
+    display: inline;
+    padding-right: 20px;
+    margin-top: 1px;
+}
+
+#ekibimiz ul li a{
+    color: black;
+    font-size: 30px;
+}
+
+#ekibimiz ul li a:hover{
+    color: goldenrod;
+    transition: 0.5s;
+}
+
+#ekibimiz p{
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    color: #777;
+    margin-top: 12px;
+}
+
+
+
+/************ REFERANS *********************/
+
+
+#referans{
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+#referans .tittle{
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+
+/************ Iletisim ********************/
+
+
+#iletisim{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.822);
+    padding-bottom: 115px;
+}
+
+#iletisim .tittle{
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#iletisim button{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 34px;
+}
+
+#iletisim .iletisim{
+    padding-bottom: 100px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+
+
+
